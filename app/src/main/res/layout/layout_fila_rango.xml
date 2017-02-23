@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+<TextView android:text="Rango"
+    android:id="@+id/tvRango"
+    android:layout_weight="0.23"
+    android:layout_width="40dp"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:paddingLeft="25dp"
+    android:textSize="24sp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:src="@drawable/normalidad"
+        android:id="@+id/imgRango"
+        android:layout_weight="0.04"
+
+        android:layout_height="50dp"
+        android:background="@color/common_google_signin_btn_text_dark_disabled" />
+
+    <TextView
+        android:text="Texto Rango"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/tvTextoRango"
+        android:layout_weight="0.23"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textSize="24sp" />
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="VOLVER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:id="@+id/bHVolver" />
+
+    <Button
+        android:text="FECHA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/bHFecha"
+        android:textSize="12sp"
+        android:layout_toRightOf="@id/bHVolver"
+        />
+    <Button
+        android:text="IMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/bHIMC"
+        android:layout_toRightOf="@id/bHFecha"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:text="Fecha"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/tvHFecha"
+        android:textAlignment="textStart"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Peso"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/tvHFecha"
+        android:id="@+id/tvHPeso"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="IMC"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/tvHPeso"
+        android:id="@+id/tvHIMC"
+        android:textSize="24sp" />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHFecha"
+        android:layout_marginTop="5dp"
+
+
+        android:id="@+id/lvHistorial" />
+
+
+
+
+
+
+
+
+</RelativeLayout>

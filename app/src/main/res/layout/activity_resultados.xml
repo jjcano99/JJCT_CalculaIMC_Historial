@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_resultados"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:background="@android:color/holo_blue_dark">
+
+
+    <TextView
+        android:text="@string/tuIndice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:id="@+id/tvResultTexto"
+        android:textSize="30sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="102dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="21dp"
+        android:id="@+id/tvResultIMC"
+        android:textSize="50sp"
+        android:layout_below="@+id/tvResultTexto"
+        android:layout_alignLeft="@+id/tvResultTexto"
+        android:layout_alignStart="@+id/tvResultTexto"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/estadoDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tvEstadoTexto"
+        android:textSize="30sp"
+        android:layout_below="@+id/tvResultIMC"
+        android:layout_alignLeft="@+id/tvResultTexto"
+        android:layout_alignStart="@+id/tvResultTexto"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="Normalidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvEstadoIMC"
+        android:textSize="50sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/tvEstadoTexto"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/verRangos"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="14dp"
+        android:id="@+id/bVerRangos"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+         />
+
+    <Button
+        android:text="HOME"
+        android:layout_width="150dp"
+        android:layout_toStartOf="@+id/bVerRangos"
+        android:id="@+id/bHome"
+        android:layout_height="50dp" />
+
+
+</RelativeLayout>

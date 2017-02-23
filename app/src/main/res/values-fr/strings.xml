@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JJCT-CalculaIMC</string>
+    <string name="desnutricion">Sous-alimentation</string>
+    <string name="bajoPeso">De Bas Poids</string>
+    <string name="normal">Normal</string>
+    <string name="obesidad">Obésité</string>
+    <string name="sobrepeso">Embonpoint</string>
+    <string name="peso">Poids</string>
+    <string name="altura">Hauteur</string>
+    <string name="calculaTuIMC">Calculez votre IMC (indice de masse corporelle)</string>
+    <string name="calcular">Calculer</string>
+    <string name="estadoDe">Elle correspond à l\'état de:</string>
+    <string name="parametrosIncorrectos">Paramètres incorrects</string>
+    <string name="tuIndice">Votre indice de masse corporelle est:</string>
+    <string name="verRangos">Voir les plages</string>
+    <string name="volver">Revenir</string>
+</resources>
